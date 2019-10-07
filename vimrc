@@ -6,7 +6,6 @@
         Plug 'sjl/gundo.vim' " graphical undo
         Plug 'ctrlpvim/ctrlp.vim' " find file in dir
         Plug 'dense-analysis/ale' " async syntax checker/fixer
-        "Plug 'google/yapf' " python code formatter
         "Plug 'python-mode/python-mode' " python plugin
         Plug 'scrooloose/nerdtree' " tree viewer
         
@@ -14,6 +13,11 @@
         Plug 'junegunn/fzf', { 'do': './install --all' }
         "Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
         "Plug '~/.fzf'
+
+        " ALE is probably better, but requires Vim 8+, so switch when it's
+        " available
+        Plug 'vim-syntastic/syntastic'
+        Plug 'google/yapf' " python code formatter
 
         call plug#end()
 " }}}
