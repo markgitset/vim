@@ -5,7 +5,7 @@
         " Declare the list of plugins.
         Plug 'sjl/gundo.vim' " graphical undo
         Plug 'ctrlpvim/ctrlp.vim' " find file in dir
-        Plug 'dense-analysis/ale' " async syntax checker/fixer
+        "Plug 'dense-analysis/ale' " async syntax checker/fixer
         "Plug 'python-mode/python-mode' " python plugin
         Plug 'scrooloose/nerdtree' " tree viewer
         
